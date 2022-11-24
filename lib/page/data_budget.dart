@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:counter_7/main.dart';
 import 'package:counter_7/tambah_budget.dart';
-import 'package:flutter/material.dart';
 import 'package:counter_7/drawer.dart';
 import 'globals.dart' as globals;
+import 'package:counter_7/page/drawer.dart';
+import 'package:counter_7/globals.dart' as globals;
 
 class DataBudgetPage extends StatefulWidget {
     class _DataBudgetState extends State<DataBudgetPage> {

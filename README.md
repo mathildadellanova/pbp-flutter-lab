@@ -50,3 +50,25 @@ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 	Membuat global.dart
 	Melakukan dekorasi
 	Add, commit, push ke repositori  
+
+
+Pertanyaan Tugas 9
+
+ Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+	Ya. Tidak.
+
+ Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+	ListTile, fungsinya untuk populate sebuat ListView
+	CheckBox, fungsinya untuk membuat clickable checkbox
+	TextButton, fungsinya untuk listen _onPressed_ dan _onLongPress_
+	FutureBuilder, merupakan widget yang builds itself berdasarkan interaksi snapshot paling terbaru
+
+ Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+	Data difetch menggunakan HTTP di fungsi fetchWatchlist yang memanggil fungsi get oleh HTTP instances. Fungsi tersebut akan return daftar object MyWatchlist. FutureBuilder akan call fungsi dan menunggu responsnya. Ketika data difetch, FutureBuilder akan return ListView.builder yang membuild ListTiles yang contains mapped data yang kita dapatkan dari fungsi fetchWatchlist 
+
+ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+	Membuat nywatchlist.dart dan class MyWatchlist
+	Membuat fetch_watchlist.dart
+	Membuat my_watchlist.dart dan MyWatchlistPage StatefulWidget
+	Membuat my_watchlist_detail.dart
+	Add, commit, dan push ke repositori

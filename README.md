@@ -21,3 +21,32 @@ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 	Mengedit lib.main.dart
 	Membuat repository pbp-flutter-lab
 	add, commit, push ke repository tersebut
+
+
+Pertanyaan Tugas 8
+
+Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+	Navigator.push melakukan push route kepada stack di atas pada current page, sedangkan pushReplacement mereplace current page dengan route yang ingin dipush
+
+Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+	DropdownButton, fungsinya untuk memilih angka dari item-item
+	DropdownHideUnderLine, fungsinya untuk meremove underline dari DropdownButton
+	TextButton, fungsinya untuk listen _onPressed_ dan _onLongPress_
+	ListView.builder, fungsinya untuk build children sesuai permintaan.
+	ListTile, fungsinya untuk populate sebuat ListView
+	Material, fungsinya untuk wrap widget yang sering dibutuhkan aplikasi
+
+Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+	onPressed, onTap, onChanged
+
+Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+	Ketika kita navigasi ke screen lain, kita menggunakan metode push dan widget navigator menambahkan screen baru ke stack paling atas. Metode pop akan meremove screen dari stack tersebut
+
+Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+	Membuat drawer.dart
+	Membuat tambah_budget.dart
+	Membuat form yang meminta judul nominal, jenis, dan tanggal di tambah_budget.dart
+	Membuat Budget di tambah_budget.dart
+	Membuat global.dart
+	Melakukan dekorasi
+	Add, commit, push ke repositori  

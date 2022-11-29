@@ -15,7 +15,7 @@ import 'dart:convert';
  class _MyWatchlistState extends State<MyWatchlistPage> {
    Future<List<MyWatchlist>> fetchWatchlist() async {
      var url =
-         Uri.parse('https://edutjie-pbp-2.herokuapp.com/mywatchlist/json/');
+         Uri.parse('http://tugas2pbpmathilda.herokuapp.com/mywatchlist/json/');
      var response = await http.get(
        url,
        headers: {

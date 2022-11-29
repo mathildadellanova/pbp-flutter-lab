@@ -4,10 +4,8 @@ import 'package:counter_7/page/data_budget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:counter_7/drawer.dart';
-import 'globals.dart' as globals;
 import 'package:counter_7/page/drawer.dart';
 import 'package:counter_7/model/budget.dart';
-import 'package:counter_7/globals.dart' as globals;
 
  class TambahBudgetPage extends StatefulWidget {
    const TambahBudgetPage({super.key});
